@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+:root {
+    --primary: lightgray;
+}
+
+/* table {
+    background-color: var(--secondary);
+} */
+table {
+    border-spacing: 0;
+}
+tr:nth-child(even) {
+    background: #ccc;
+}
+tr:nth-child(odd) {
+    background: #fff;
+}
