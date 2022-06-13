@@ -12,7 +12,7 @@ table {
     border-spacing: 0;
 }
 tr:nth-child(even) {
-    background: #ccc;
+    background: var(--primary);
 }
 tr:nth-child(odd) {
     background: #fff;
