@@ -3,6 +3,7 @@
 }
 :root {
     --primary: lightgray;
+    --secondary: blue;
 }
 
 /* table {
@@ -11,9 +12,13 @@
 table {
     border-spacing: 0;
 }
-tr:nth-child(even) {
+tbody tr:nth-child(even) {
     background: var(--primary);
 }
-tr:nth-child(odd) {
+tbody tr:nth-child(odd) {
     background: #fff;
+}
+thead tr {
+    background: var(--secondary);
+    color: #fff;
 }
